@@ -1,0 +1,41 @@
+/* header */
+
+/*main navbar*/
+
+.main-navbar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #209689;
+    width: auto;
+    height: 100px;
+}
+
+/* image logo */
+
+.main-navbar .image-logo{
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Work Sans,Arial,sans-serif;
+    gap: 40px;
+    list-style-type: none;
+    font-weight: 400;
+    margin-right: 35px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
